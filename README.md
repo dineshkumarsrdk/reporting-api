@@ -22,7 +22,7 @@ node index.js
 - POST: http://localhost:3000/user - to create a new user
 - PUT: http://localhost:3000/user/:id - to update the username and email
 - DELETE: http://localhost:3000/user/:id - to delete a user by id
-- POST: http://localhost:3000/user/login - to login a user
+- POST: http://localhost:3000/user/login - to login a user (User has to login first to access the protected routes)
 - POST: http://localhost:3000/report/upload-csv - to upload a csv file
 - POST: http://localhost:3000/report/campaign?campaignName=<value> - to filter stats by campaign name
 - POST: http://localhost:3000/report/fsnID?fsnID=<value> - to filter stats by fsn id
